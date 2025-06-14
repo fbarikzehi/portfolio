@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="fereidoon barikzehi - Full Stack Developer Portfolio. Showcasing web development projects, skills in React, Node.js, and modern web technologies.">
+    <meta name="keywords" content="web developer, full stack, portfolio, React, Node.js, JavaScript, HTML, CSS">
+    <meta name="author" content="fereidoon barikzehi">
+    <meta property="og:title" content="fereidoon barikzehi - Full Stack Developer Portfolio">
+    <meta property="og:description" content="Passionate full stack developer specializing in modern web technologies">
+    <meta property="og:type" content="website">
+    <title>fereidoon barikzehi - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header role="banner">
+        <nav role="navigation" aria-label="Main navigation">
+            <ul>
+                <li><a href="#home" aria-current="page">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" role="main">
+        <section id="home" aria-labelledby="home-heading">
+            <h1 id="home-heading">Welcome to My Portfolio</h1>
+            <p>Hi, I'm <strong>fereidoon barikzehi</strong>, a passionate full stack developer building amazing digital
+                experiences
+                with modern web technologies.</p>
+            <a href="#projects" class="cta-button" aria-describedby="cta-description">
+                View My Work
+                <span id="cta-description" class="sr-only">Navigate to projects section</span>
+            </a>
+        </section>
+
+        <section id="about-me" name="about-me" aria-labelledby="about-heading">
+            <h2 id="about-heading">About Me</h2>
+            <div class="about-content">
+                <img src="https://avatars.githubusercontent.com/u/109794679?v=4"
+                    alt="fereidoon barikzehi - Professional headshot of a smiling developer" class="profile-image"
+                    width="300" height="300">
+                <div class="about-text">
+                    <p>I'm a dedicated full stack developer with <strong>10+ years of experience</strong> in creating
+                        robust, scalable web applications. My passion lies in solving complex problems through clean,
+                        efficient code and delivering exceptional user experiences.</p>
+                    <p>When I'm not coding, you'll find me exploring new technologies, contributing to open-source
+                        projects, or sharing knowledge through technical blog posts and mentoring.</p>
+                    <a href="https://www.linkedin.com/in/fbarikzehi/" download
+                        aria-label="Download fereidoon barikzehi's resume as PDF">
+                        Download Resume
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-heading">
+            <h2 id="projects-heading">Featured Projects</h2>
+            <div class="projects-grid" role="list">
+                <article class="project-card" role="listitem">
+                    <figure>
+                        <figcaption>E-Commerce Platform - Full stack application</figcaption>
+                    </figure>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A comprehensive full-stack e-commerce solution featuring user authentication, payment
+                            processing, inventory management, and real-time analytics dashboard.</p>
+                        <ul class="tech-stack" aria-label="Technologies used">
+                            <li><span class="tech-tag">React</span></li>
+                            <li><span class="tech-tag">Node.js</span></li>
+                            <li><span class="tech-tag">MongoDB</span></li>
+                            <li><span class="tech-tag">Stripe API</span></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="btn btn-primary" target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="View E-commerce Platform live demo (opens in new tab)">
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/" class="btn btn-secondary" target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="View E-commerce Platform source code on GitHub (opens in new tab)">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" role="listitem">
+                    <figure>
+                        <figcaption>Task Management App - Collaborative productivity tool</figcaption>
+                    </figure>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management application with real-time updates, team collaboration
+                            features, drag-and-drop kanban boards, and advanced filtering capabilities.</p>
+                        <ul class="tech-stack" aria-label="Technologies used">
+                            <li><span class="tech-tag">Vue.js</span></li>
+                            <li><span class="tech-tag">Firebase</span></li>
+                            <li><span class="tech-tag">Tailwind CSS</span></li>
+                            <li><span class="tech-tag">Socket.io</span></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="btn btn-primary" target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="View Task Management App live demo (opens in new tab)">
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/" class="btn btn-secondary" target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="View Task Management App source code on GitHub (opens in new tab)">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card" role="listitem">
+                    <figure>
+                        <figcaption>Weather Analytics Dashboard - Data visualization project</figcaption>
+                    </figure>
+                    <div class="project-content">
+                        <h3>Weather Analytics Dashboard</h3>
+                        <p>A comprehensive weather forecasting application featuring interactive data visualizations,
+                            location-based forecasts, historical weather data, and mobile-responsive design.</p>
+                        <ul class="tech-stack" aria-label="Technologies used">
+                            <li><span class="tech-tag">JavaScript ES6+</span></li>
+                            <li><span class="tech-tag">OpenWeather API</span></li>
+                            <li><span class="tech-tag">Chart.js</span></li>
+                            <li><span class="tech-tag">Progressive Web App</span></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/" class="btn btn-primary" target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="View Weather Dashboard live demo (opens in new tab)">
+                                Live Demo
+                            </a>
+                            <a href="https://github.com/" class="btn btn-secondary" target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="View Weather Dashboard source code on GitHub (opens in new tab)">
+                                Source Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-heading">
+            <h2 id="skills-heading">Skills & Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <ul class="skills-list" role="list" aria-label="Frontend development skills">
+                        <li role="listitem"><span class="skill-tag" aria-label="HTML5 proficiency">HTML5</span></li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="CSS3 and SASS proficiency">CSS3/SASS</span></li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="JavaScript ES6+ proficiency">JavaScript/ES6+</span></li>
+                        <li role="listitem"><span class="skill-tag" aria-label="React.js proficiency">React.js</span>
+                        </li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="TypeScript proficiency">TypeScript</span></li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="Responsive design proficiency">Responsive Design</span></li>
+                        <li role="listitem"><span class="skill-tag" aria-label="Vue.js proficiency">Vue.js</span></li>
+                        <li role="listitem"><span class="skill-tag" aria-label="Web accessibility proficiency">Web
+                                Accessibility</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <ul class="skills-list" role="list" aria-label="Backend development skills">
+                        <li role="listitem"><span class="skill-tag" aria-label="Node.js proficiency">Node.js</span></li>
+                        <li role="listitem"><span class="skill-tag" aria-label="Python proficiency">Python</span></li>
+                        <li role="listitem"><span class="skill-tag" aria-label="RESTful APIs proficiency">RESTful
+                                APIs</span></li>
+                        <li role="listitem"><span class="skill-tag" aria-label="GraphQL proficiency">GraphQL</span></li>
+                        <li role="listitem"><span class="skill-tag" aria-label="SQL database proficiency">SQL</span>
+                        </li>
+                        <li role="listitem"><span class="skill-tag" aria-label="MongoDB proficiency">MongoDB</span></li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="Express.js proficiency">Express.js</span></li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul class="skills-list" role="list" aria-label="Tools and technologies">
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="Git version control proficiency">Git</span></li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="Docker containerization proficiency">Docker</span></li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="AWS and Azure cloud platforms proficiency">AWS/Azure</span></li>
+                        <li role="listitem"><span class="skill-tag" aria-label="CI/CD pipeline proficiency">CI/CD</span>
+                        </li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="Agile and Scrum methodologies proficiency">Agile/Scrum</span></li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="Jest testing framework proficiency">Jest</span></li>
+                        <li role="listitem"><span class="skill-tag"
+                                aria-label="Webpack build tool proficiency">Webpack</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Let's Work Together</h2>
+            <p>Have a project in mind or want to discuss opportunities? I'd love to hear from you!</p>
+
+            <div class="contact-container">
+                <form id="contact-form" action="#" method="POST" class="contact-form" novalidate>
+                    <fieldset>
+                        <legend class="sr-only">Contact Information Form</legend>
+
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required aria-required="true"
+                                aria-describedby="name-error" placeholder="Enter your full name" autocomplete="name">
+                            <span id="name-error" class="error-message" role="alert" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required aria-required="true"
+                                aria-describedby="email-error" placeholder="Enter your email address"
+                                autocomplete="email">
+                            <span id="email-error" class="error-message" role="alert" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company/Organization</label>
+                            <input type="text" id="company" name="company" aria-describedby="company-help"
+                                placeholder="Enter your company name (optional)" autocomplete="organization">
+                            <span id="company-help" class="help-text">Optional field</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required aria-required="true"
+                                aria-describedby="subject-error">
+                                <option value="">Select a subject</option>
+                                <option value="project">Project Inquiry</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <span id="subject-error" class="error-message" role="alert" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required aria-required="true" rows="5"
+                                aria-describedby="message-error message-help"
+                                placeholder="Tell me about your project or inquiry..."></textarea>
+                            <span id="message-help" class="help-text">Minimum 10 characters</span>
+                            <span id="message-error" class="error-message" role="alert" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                            <label for="newsletter">I'd like to receive updates about your latest projects and blog
+                                posts</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn" aria-describedby="submit-help">
+                            Send Message
+                        </button>
+                        <span id="submit-help" class="help-text">Your message will be sent securely</span>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="footer-content">
+            <p>&copy; 2024 fereidoon barikzehi. All rights reserved.</p>
+            <nav aria-label="Footer navigation">
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#sitemap">Sitemap</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
